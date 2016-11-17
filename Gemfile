@@ -7,6 +7,7 @@ gem 'rails', '~> 5.0.0', '>= 5.0.0.1'
 gem 'sqlite3'
 # Use Puma as the app server
 gem 'puma', '~> 3.0'
+gem 'bootstrap-sass'
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
 # Use Uglifier as compressor for JavaScript assets
@@ -32,7 +33,7 @@ gem 'sdoc', group: :doc
 
 group :development, :test do
 	gem 'byebug'
-	gem 'web-console'
+	#gem 'web-console'
 	gem 'spring'
 	gem 'spring-commands-rspec'
 	gem 'rspec-rails'
@@ -45,7 +46,7 @@ group :test do
 
 group :development do
   # Access an IRB console on exception pages or by using <%= console %> anywhere in the code.
-  #gem 'web-console'
+  gem 'web-console'
   gem 'listen', '~> 3.0.5'
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
  # gem 'spring'
